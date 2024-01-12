@@ -1,0 +1,15 @@
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+@Component({
+  selector: 'app-books',
+  standalone: true,
+  imports: [CommonModule],
+  templateUrl: './books.component.html',
+  styleUrl: './books.component.css'
+})
+export class BooksComponent 
+{
+  public books = ["Angular Book", "React Book", "Vue Book","Java Book", "C# Book", "Python Book", "JavaScript Book", "TypeScript Book", "HTML Book", "CSS Book"];
+
+}
